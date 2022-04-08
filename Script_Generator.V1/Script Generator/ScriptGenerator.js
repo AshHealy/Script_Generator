@@ -13,7 +13,7 @@ const doings = ["Our characters face each other. ", "the drama hangs in the air 
 const weathers = ["it is raining ", "there is lava ", "zombies bang on the doors", "a dog barks in the distance"]
 const actions = [" turns around", " throws a snowball", " withdraws from the union", " becomes a spiral", " invests in an NFT"]
 const reactions = [" ran away", " punches elon musk", " didn't like that.", " inherits a million $$$.", " liked that."]
-const dialogue_challenges = [" I have the high ground", " you can't stop the beat", " get away from my daughter BITCH", " I need to kill the queen to defeat the drones, will you come with me?", "this is your last chance bub.", " my career in this town is just getting started!"]
+const dialogue_challenges = [" I have the high ground", " you can't stop the beat", " get away from my daughter BITCH", " I need to kill the queen to defeat the drones, will you come with me?", "this is your last chance bub.", " my career in this town is just getting started!", " that could be your mum!"]
 const dialogue_challenge_responses = [" you have my respect but no.", " I can't believe you've done this.", " it was for the children. ", " listen. I just can.", " I don't care. ", " I am returning to academia effective immediately. "]
 
 
