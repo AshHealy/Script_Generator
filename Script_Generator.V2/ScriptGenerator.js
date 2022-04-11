@@ -4,14 +4,20 @@
 function genSetting (){
 //int or ext
 const places = ["Int. ", "Ext. "]
+const weathers = ["it is raining ", "there is lava ", "zombies bang on the doors", "a dog barks in the distance"]
+const locales = ["A wet kitchen ", "A classroom ", "a hot dog farm ", "a volcano ", "a gotham rooftop ", "a pirateship ", "a gas station "]
 var place = Math.floor(Math.random() * places.length);
+var weather = Math.floor(Math.random() * weathers.length);
+var locale = Math.floor(Math.random() * locales.length);
+
 let x = places[place]
-return console.log(x)
+let z = weathers[weather]
+let y = locales[locale]
+document.getElementById("demo").innerHTML = x + " - " + y + " - " + z
 }
 
 
 //Camera Direction and scene setting
-
 function genCamera (){
 
 }
@@ -38,6 +44,11 @@ function characterTwo () {
 
 }
 
-console.log(genSetting)
+
+function myFunction(){
+    genSetting();
+}
+
+
 
 
