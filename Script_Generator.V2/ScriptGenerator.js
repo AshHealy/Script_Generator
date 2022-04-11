@@ -6,8 +6,7 @@ function genSetting (){
 const places = ["Int. ", "Ext. "]
 var place = Math.floor(Math.random() * places.length);
 let x = places[place]
-return document.getElementById("demo").innerHTML = x + " - " 
-
+return console.log(x)
 }
 
 
@@ -38,5 +37,7 @@ function characterTwo () {
 
 
 }
+
+console.log(genSetting)
 
 
