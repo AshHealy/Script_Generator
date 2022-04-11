@@ -46,7 +46,7 @@ function myScript(){
         let tod = timeofdays[timeofday]
         let dialoguecr = dialogue_challenge_responses[dialogue_challenge_response]
 
-        document.getElementById("demo").innerHTML = x + " - " + where +  " - " + tod;
+        document.getElementById("demo").innerHTML = x + " - " + where +  " - " + d + " - " + tod;
         document.getElementById("demo2").innerHTML = goodguy + ": " + saything
         document.getElementById("demo3").innerHTML = badguy + ": " + respondthing
         document.getElementById("demo4").innerHTML = badguy + a 
@@ -60,7 +60,7 @@ function myScript(){
 
 
 function myFunction() {
-        document.getElementById("demo").innerHTML = x + " - " + where +  " - " + tod;
+        document.getElementById("demo").innerHTML = x + " - " + where +  " - " + d + " - " + tod;
         document.getElementById("demo2").innerHTML = goodguy + ": " + saything
         document.getElementById("demo3").innerHTML = badguy + ": " + respondthing
         document.getElementById("demo4").innerHTML = badguy + a 
