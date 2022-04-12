@@ -1,8 +1,9 @@
 //Each section should be a separate function
 //Interior or ext, place, time
 
-function genSetting (){
+
 //int or ext
+//This should maybe be a class
 const places = ["Int. ", "Ext. "]
 const weathers = ["it is raining ", "there is lava ", "zombies bang on the doors", "a dog barks in the distance"]
 const locales = ["A wet kitchen ", "A classroom ", "a hot dog farm ", "a volcano ", "a gotham rooftop ", "a pirateship ", "a gas station "]
@@ -14,15 +15,17 @@ let x = places[place]
 let z = weathers[weather]
 let y = locales[locale]
 document.getElementById("demo").innerHTML = x + " - " + y + " - " + z
-}
+
 
 
 //Camera Direction and scene setting
+//This should maybe be a class
 function genCamera (){
 
 }
 
 //First Character & Description
+//This should maybe be a class
 
 function characterOne () {
 
@@ -31,9 +34,11 @@ function characterOne () {
     //Else generic responses 
 
 
+
 }
 
 //Second Characrer & Descripton 
+//This should maybe be a class
 
 function characterTwo () { 
 
@@ -46,7 +51,7 @@ function characterTwo () {
 
 
 function myFunction(){
-    genSetting();
+
 }
 
 
