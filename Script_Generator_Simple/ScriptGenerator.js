@@ -1,7 +1,7 @@
 
 
 function myFunction() {
-    const protagonists = ["Cold Simon", "Stan", "Booger", "Noodle", "Jen", "My Partner Steve", "The Final Pam", "Big Nessa", "Rob, Rob and David", "Chris", "Craig", "Matt", "Tam"]
+    const protagonists = ["Cold Simon", "Stan", "Booger", "Noodle", "Jen", "My Partner Steve", "The Final Pam", "Big Nessa", "Rob, Rob and David", "Chris", "Craig", "Matt", "Tam", "Batman", "Bartman"]
     var protagonist = Math.floor(Math.random() * protagonists.length);
     let goodguy = protagonists[protagonist]
     document.getElementById("demo").innerHTML = goodguy

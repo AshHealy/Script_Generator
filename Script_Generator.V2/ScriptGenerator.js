@@ -14,8 +14,25 @@ var locale = Math.floor(Math.random() * locales.length);
 let x = places[place]
 let z = weathers[weather]
 let y = locales[locale]
-document.getElementById("demo").innerHTML = x + " - " + y + " - " + z
 
+// document.getElementById("demo").innerHTML = x + " - " + y + " - " + z
+
+class genSetting {
+    constructor(place, weather, locale){
+    var place = Math.floor(Math.random() * places.length);
+    var weather = Math.floor(Math.random() * weathers.length);
+    var locale = Math.floor(Math.random() * locales.length);
+
+    this.place = places[place]
+    this.weather = weathers[weather]
+    this.locale = locales[locale]
+    }
+}
+
+function myFunction(){
+    const newSetting = new genSetting();
+    document.getElementById("demo").innerHTML = newSetting.weather + newSetting.place + newSetting.locale;
+}
 
 
 //Camera Direction and scene setting
