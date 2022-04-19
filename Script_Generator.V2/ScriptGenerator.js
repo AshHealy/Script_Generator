@@ -30,8 +30,7 @@ class genSetting {
 }
 
 function myFunction(){
-    const newSetting = new genSetting();
-    document.getElementById("demo").innerHTML = newSetting.weather + newSetting.place + newSetting.locale;
+
 }
 
 

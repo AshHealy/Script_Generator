@@ -15,6 +15,7 @@ function myScript(){
         const reactions = [" ran away", " punches elon musk", " didn't like that.", " inherits a million $$$.", " liked that."]
         const dialogue_challenges = [" I have the high ground", " you can't stop the beat", " get away from my daughter BITCH", " I need to kill the queen to defeat the drones, will you come with me?", "this is your last chance bub.", " my career in this town is just getting started!", " that could be your mum!"]
         const dialogue_challenge_responses = [" you have my respect but no.", " I can't believe you've done this.", " it was for the children. ", " listen. I just can.", " I don't care. ", " I am returning to academia effective immediately. "]
+        const timeFrameDecades = ["Decades passed but the hero remained frozen", "Centures passed but the "]
 
 
 
@@ -52,7 +53,7 @@ function myScript(){
         document.getElementById("demo4").innerHTML = badguy + a 
         document.getElementById("demo5").innerHTML = goodguy + r
         document.getElementById("demo6").innerHTML = goodguy + " : " + dialoguec
-        document.getElementById("demo7").innerHTML = badguy + " : " + dialoguecr
+        document.getElementById("demo7").innerHTML = badguy + " : " + dialoguecr + "I'm going my people need me."
 
 
 }
