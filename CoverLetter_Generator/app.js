@@ -17,7 +17,7 @@ function myFunction() {
     var surname = Math.floor(Math.random() * surnames.length);
     let lastname = surnames[surname]
 
-    const openingphrases = ["In my persuit of new creative endeavors I was put on to the position available", "After seeing this position listed on Indeed", "Having lost my job after a lengthy legal battle with my former employer, the details of which I am not at liberty to discus,\n", ""]
+    const openingphrases = ["In my persuit of new creative endeavors ", "After seeing this position listed on Indeed. ", "Having lost my job after a lengthy legal battle with my former employer, the details of which I am not at liberty to discus.\n"]
     var openingphrase = Math.floor(Math.random() * openingphrases.length);
     let part1= openingphrases[openingphrase]
 
@@ -25,7 +25,7 @@ function myFunction() {
     var oppertunity = Math.floor(Math.random() * oppertunities.length);
     let job = oppertunities[oppertunity]
 
-    document.getElementById("sentenceOne").innerHTML = "My name is " + firstname + " " + lastname + ". " + part1 + ". I became interested in the position of" + job + "available at your company."
+    document.getElementById("sentenceOne").innerHTML = "My name is " + firstname + " " + lastname + ". " + part1 + "I became interested in the position of " + job + " available at your company."
 }
 
 
