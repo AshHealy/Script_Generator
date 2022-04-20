@@ -33,7 +33,7 @@ function myFunction() {
 
     //generate next section of cover letter 
     const abilities = [""]
-    var ability = Math.floor(MAth.random() * abilities.length);
+    var ability = Math.floor(Math.random() * abilities.length);
     let skill =abilities[ability]
 }
 
