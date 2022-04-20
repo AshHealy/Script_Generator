@@ -8,7 +8,7 @@ function myFunction() {
     let hello = greetings[greeting]
     document.getElementById("opening").innerHTML = hello
     
-    //Generates the first sentence of the cover letter
+    //Generates the first section of the cover letter
     const names = ["Alan", "Simon", "Theo", "John", "Jim", "Sam", "Alex", "Amber", "Angela", "Eva", "Stella", "Lucy"]
     var name = Math.floor(Math.random() * names.length);
     let firstname = names[name]
@@ -17,15 +17,24 @@ function myFunction() {
     var surname = Math.floor(Math.random() * surnames.length);
     let lastname = surnames[surname]
 
-    const openingphrases = ["In my persuit of new creative endeavors ", "After seeing this position listed on Indeed. ", "Having lost my job after a lengthy legal battle with my former employer, the details of which I am not at liberty to discus.\n"]
+    const openingphrases = ["In my persuit of new creative endeavors ", "After seeing this position listed on Indeed. ", "Having lost my job after a lengthy legal battle with my former employer, the details of which I am not at liberty to discus.\n", "Legally I must disclose that I was let go due to incidents involving bathroom conduct, I will not elaborate further.", "After my former employer made the mistake of underestimating my ability to procrastinate I was let go and so "]
     var openingphrase = Math.floor(Math.random() * openingphrases.length);
     let part1= openingphrases[openingphrase]
 
-    const oppertunities = ["Assistant Position", "Senior Frontend Developer", "Exorcist", "Junior Backend Developer", "Your Reson For Living"]
+    const oppertunities = ["*Insert Job Role Here*", "Senior Frontend Developer", "Exorcist", "Junior Backend Developer", "Storm Trooper", "Actual Comedian Professional Cannibal", ]
     var oppertunity = Math.floor(Math.random() * oppertunities.length);
     let job = oppertunities[oppertunity]
 
-    document.getElementById("sentenceOne").innerHTML = "My name is " + firstname + " " + lastname + ". " + part1 + "I became interested in the position of " + job + " available at your company."
+    const businesses = ["Life co.", "Death co.", "Mystery Inc", "CodeGang", "PJ", "Fyre ltd", "Phonix Games", "DSD", "Monsters Inc"]
+    var business = Math.floor(Math.random() * businesses.length); 
+    let employer = businesses[business]
+
+    document.getElementById("sentenceOne").innerHTML = "My name is " + firstname + " " + lastname + ". " + part1 + "I became interested in the position of " + job + " available at " + employer + "."
+
+    //generate next section of cover letter 
+    const abilities = [""]
+    var ability = Math.floor(MAth.random() * abilities.length);
+    let skill =abilities[ability]
 }
 
 
