@@ -17,11 +17,11 @@ function myFunction() {
     let surname = Math.floor(Math.random() * surnames.length);
     let lastname = surnames[surname]
 
-    const openingphrases = ["In my persuit of new creative endeavors ", "After seeing this position listed on Indeed. ", "Having lost my job after a lengthy legal battle with my former employer, the details of which I am not at liberty to discus.\n", "Legally I must disclose that I was let go due to incidents involving bathroom conduct, I will not elaborate further.", "After my former employer made the mistake of underestimating my ability to procrastinate I was let go and so "]
+    const openingphrases = ["In my persuit of new creative endeavors ", "After seeing this position listed on Indeed. ", "Having lost my job after a lengthy legal battle with my former employer, the details of which I am not at liberty to discus.\n", "Legally I must disclose that I was let go due to incidents involving bathroom conduct, I will not elaborate further.", "After my former employer made the mistake of underestimating my ability to procrastinate I was let go and so ", "My former employer crossed my for the last time, the less that is said of their transgression... the better. Anyway, I'm onto bigger and better things and they're in the clink."]
     let openingphrase = Math.floor(Math.random() * openingphrases.length);
     let part1= openingphrases[openingphrase]
 
-    const oppertunities = ["*Insert Job Role Here*", "Senior Frontend Developer", "Exorcist", "Junior Backend Developer", "Storm Trooper", "Actual Comedian Professional Cannibal", ]
+    const oppertunities = ["*Insert Job Role Here*", "Senior Frontend Developer", "Exorcist", "Junior Backend Developer", "Storm Trooper", "Actual Comedian Professional Cannibal", "Satan in Training", "Dead Poet"]
     let oppertunity = Math.floor(Math.random() * oppertunities.length);
     let job = oppertunities[oppertunity]
 
