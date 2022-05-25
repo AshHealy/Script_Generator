@@ -3,17 +3,17 @@
 function myFunction() {
 
     //Generates the greeting line of the cover letter
-    const greetings = ["Hello there,", "Dear Sir, ", "To Whom It May Concern, ", "Dear Madam, ", "What's up nerd, ", "Hi there!"]
+    const greetings = ["Hello there,", "What up forknuts?", "Dear Sir, ", "To Whom It May Concern, ", "Dear Madam, ", "What's up nerd, ", "Hi there!", " Hi there. Do you have a second to talk about the environment?", "Hi there, Do you have a second to eat my farts?"]
     let greeting = Math.floor(Math.random() * greetings.length);
     let hello = greetings[greeting]
     document.getElementById("opening").innerHTML = hello
     
     //Generates the first section of the cover letter
-    const names = ["Alan", "Simon", "Theo", "John", "Jim", "Sam", "Alex", "Amber", "Angela", "Eva", "Stella", "Lucy"]
+    const names = ["Alan", "Glad","Bad", "Simon", "Theo", "John", "Jim", "Sam", "Alex", "Amber", "Angela", "Eva", "Stella", "Lucy"]
     let name = Math.floor(Math.random() * names.length);
     let firstname = names[name]
     
-    const surnames = ["Shannon", "McGreagor", "Philips", "Jackson", "Patterson", "Donelly", "Hues", "Smith", "Doe"]
+    const surnames = ["Shannon", "McGreagor", "Philips", "Jackson", "Patterson", "Donelly", "Hues", "Smith", "Doe", "Janet", "Dilbert" ]
     let surname = Math.floor(Math.random() * surnames.length);
     let lastname = surnames[surname]
 
@@ -32,7 +32,7 @@ function myFunction() {
     document.getElementById("sentenceOne").innerHTML = "My name is " + firstname + " " + lastname + ". " + part1 + "I became interested in the position of " + job + " available at " + employer + "."
 
     //generate next section of cover letter 
-    const abilities = ["I do have are a very particular set of skills. Skills I have acquired over a very long career. Skills that make me a nightmare for people like you","I can cook a mean scrambled egg", "Javascript, CSS and HTML are foreign to me BUT I do have expierience working with Pizza", "Backend, frontend these are the same to me"]
+    const abilities = ["I do have are a very particular set of skills. Skills I have acquired over a very long career. Skills that make me a nightmare for people like you","I can cook a mean scrambled egg", "Javascript, CSS and HTML are foreign to me BUT I do have expierience working with Pizza", "Backend, frontend these are the same to me", "I know, you want to do that thing where we're arguing and fighting, but then suddenly it's like, 'Whoa, this is hot,' and we start making out."]
     let ability = Math.floor(Math.random() * abilities.length);
     let skill =abilities[ability]
 
@@ -48,6 +48,14 @@ function myFunction() {
     let candidate = candidateinfos[candidateinfo]
 
     document.getElementById("aboutme").innerHTML = "I would describe myself as " + candidate
+
+    const sighnoffoptions = ["If you don't hire me then you are quite frankly an idiot,\n", "I WILL be applying again if I don't get this job and that can be taken as a threat if you want\n", "This job IS my second choice fyi,\n", " It's up your mom's butt, you fat dink!", " If you don't hire me, you are too selfish to ever be a good person.", ""]
+    let sighnoffoption = Math.floor(Math.random() * sighnoffoptions.length)
+    let sighnoff = sighnoffoptions[sighnoffoption]
+
+    document.getElementById("sighnoff").innerHTML = sighnoff 
+
+    document.getElementById("signature").innerHTML = firstname + " " + lastname 
 
     
 }
