@@ -1,0 +1,29 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    background-color: seashell;
+}
+
+header{
+    background-color: hotpink;
+}
+
+header > h1{
+    color: blue;
+}
+
+main{
+    background-color: aqua;
+}
+
+main > section {
+    background-color: slategrey;
+}
+
+main > button{
+    background-color: aquamarine;
+}
+
+footer { 
+    background-color: orchid;
+}
+
